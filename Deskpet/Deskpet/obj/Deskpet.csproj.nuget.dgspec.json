@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\vpet\\Deskpet\\Deskpet\\Deskpet.csproj": {}
+    "C:\\Users\\RRRRL\\OneDrive\\文件\\GitHub\\vpet\\Deskpet\\Deskpet\\Deskpet.csproj": {}
   },
   "projects": {
-    "C:\\vpet\\Deskpet\\Deskpet\\Deskpet.csproj": {
+    "C:\\Users\\RRRRL\\OneDrive\\文件\\GitHub\\vpet\\Deskpet\\Deskpet\\Deskpet.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\vpet\\Deskpet\\Deskpet\\Deskpet.csproj",
+        "projectUniqueName": "C:\\Users\\RRRRL\\OneDrive\\文件\\GitHub\\vpet\\Deskpet\\Deskpet\\Deskpet.csproj",
         "projectName": "Deskpet",
-        "projectPath": "C:\\vpet\\Deskpet\\Deskpet\\Deskpet.csproj",
+        "projectPath": "C:\\Users\\RRRRL\\OneDrive\\文件\\GitHub\\vpet\\Deskpet\\Deskpet\\Deskpet.csproj",
         "packagesPath": "C:\\Users\\RRRRL\\.nuget\\packages\\",
-        "outputPath": "C:\\vpet\\Deskpet\\Deskpet\\obj\\",
+        "outputPath": "C:\\Users\\RRRRL\\OneDrive\\文件\\GitHub\\vpet\\Deskpet\\Deskpet\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

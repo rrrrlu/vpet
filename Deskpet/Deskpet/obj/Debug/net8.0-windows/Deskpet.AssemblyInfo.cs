@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Deskpet")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8bd9c961d0cbd23fdc679fe6e151b1dc16940dba")]
 [assembly: System.Reflection.AssemblyProductAttribute("Deskpet")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Deskpet")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,14 +1,30 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\vpet\\Deskpet\\Deskpet\\",
+  "WorkspaceRootPath": "C:\\Users\\RRRRL\\OneDrive\\\u6587\u4EF6\\GitHub\\vpet\\Deskpet\\Deskpet\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{06D0AB03-C0F1-7D16-588D-2080764A75EE}|Deskpet.csproj|c:\\vpet\\deskpet\\deskpet\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{06D0AB03-C0F1-7D16-588D-2080764A75EE}|Deskpet.csproj|c:\\users\\rrrrl\\onedrive\\\u6587\u4EF6\\github\\vpet\\deskpet\\deskpet\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{06D0AB03-C0F1-7D16-588D-2080764A75EE}|Deskpet.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{06D0AB03-C0F1-7D16-588D-2080764A75EE}|Deskpet.csproj|c:\\vpet\\deskpet\\deskpet\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{06D0AB03-C0F1-7D16-588D-2080764A75EE}|Deskpet.csproj|c:\\users\\rrrrl\\onedrive\\\u6587\u4EF6\\github\\vpet\\deskpet\\deskpet\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{06D0AB03-C0F1-7D16-588D-2080764A75EE}|Deskpet.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{06D0AB03-C0F1-7D16-588D-2080764A75EE}|Deskpet.csproj|c:\\users\\rrrrl\\onedrive\\\u6587\u4EF6\\github\\vpet\\deskpet\\deskpet\\taskservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{06D0AB03-C0F1-7D16-588D-2080764A75EE}|Deskpet.csproj|solutionrelative:taskservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{06D0AB03-C0F1-7D16-588D-2080764A75EE}|Deskpet.csproj|c:\\users\\rrrrl\\onedrive\\\u6587\u4EF6\\github\\vpet\\deskpet\\deskpet\\taskmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{06D0AB03-C0F1-7D16-588D-2080764A75EE}|Deskpet.csproj|solutionrelative:taskmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{06D0AB03-C0F1-7D16-588D-2080764A75EE}|Deskpet.csproj|c:\\users\\rrrrl\\onedrive\\\u6587\u4EF6\\github\\vpet\\deskpet\\deskpet\\todolist.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{06D0AB03-C0F1-7D16-588D-2080764A75EE}|Deskpet.csproj|solutionrelative:todolist.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{06D0AB03-C0F1-7D16-588D-2080764A75EE}|Deskpet.csproj|c:\\users\\rrrrl\\onedrive\\\u6587\u4EF6\\github\\vpet\\deskpet\\deskpet\\todolist.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{06D0AB03-C0F1-7D16-588D-2080764A75EE}|Deskpet.csproj|solutionrelative:todolist.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,15 +34,66 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 5,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "todolist.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\RRRRL\\OneDrive\\\u6587\u4EF6\\GitHub\\vpet\\Deskpet\\Deskpet\\todolist.xaml.cs",
+              "RelativeDocumentMoniker": "todolist.xaml.cs",
+              "ToolTip": "C:\\Users\\RRRRL\\OneDrive\\\u6587\u4EF6\\GitHub\\vpet\\Deskpet\\Deskpet\\todolist.xaml.cs",
+              "RelativeToolTip": "todolist.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-09T09:18:47.431Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "todolist.xaml",
+              "DocumentMoniker": "C:\\Users\\RRRRL\\OneDrive\\\u6587\u4EF6\\GitHub\\vpet\\Deskpet\\Deskpet\\todolist.xaml",
+              "RelativeDocumentMoniker": "todolist.xaml",
+              "ToolTip": "C:\\Users\\RRRRL\\OneDrive\\\u6587\u4EF6\\GitHub\\vpet\\Deskpet\\Deskpet\\todolist.xaml",
+              "RelativeToolTip": "todolist.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-10-09T09:16:28.172Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TaskModel.cs",
+              "DocumentMoniker": "C:\\Users\\RRRRL\\OneDrive\\\u6587\u4EF6\\GitHub\\vpet\\Deskpet\\Deskpet\\TaskModel.cs",
+              "RelativeDocumentMoniker": "TaskModel.cs",
+              "ToolTip": "C:\\Users\\RRRRL\\OneDrive\\\u6587\u4EF6\\GitHub\\vpet\\Deskpet\\Deskpet\\TaskModel.cs",
+              "RelativeToolTip": "TaskModel.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAkwCMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-09T09:15:31.803Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TaskService.cs",
+              "DocumentMoniker": "C:\\Users\\RRRRL\\OneDrive\\\u6587\u4EF6\\GitHub\\vpet\\Deskpet\\Deskpet\\TaskService.cs",
+              "RelativeDocumentMoniker": "TaskService.cs",
+              "ToolTip": "C:\\Users\\RRRRL\\OneDrive\\\u6587\u4EF6\\GitHub\\vpet\\Deskpet\\Deskpet\\TaskService.cs",
+              "RelativeToolTip": "TaskService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-09T09:15:17.428Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "MainWindow.xaml",
-              "DocumentMoniker": "C:\\vpet\\Deskpet\\Deskpet\\MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\RRRRL\\OneDrive\\\u6587\u4EF6\\GitHub\\vpet\\Deskpet\\Deskpet\\MainWindow.xaml",
               "RelativeDocumentMoniker": "MainWindow.xaml",
-              "ToolTip": "C:\\vpet\\Deskpet\\Deskpet\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\RRRRL\\OneDrive\\\u6587\u4EF6\\GitHub\\vpet\\Deskpet\\Deskpet\\MainWindow.xaml",
               "RelativeToolTip": "MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2025-09-29T16:39:53.969Z",
@@ -36,11 +103,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "C:\\vpet\\Deskpet\\Deskpet\\MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\RRRRL\\OneDrive\\\u6587\u4EF6\\GitHub\\vpet\\Deskpet\\Deskpet\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "MainWindow.xaml.cs",
-              "ToolTip": "C:\\vpet\\Deskpet\\Deskpet\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\RRRRL\\OneDrive\\\u6587\u4EF6\\GitHub\\vpet\\Deskpet\\Deskpet\\MainWindow.xaml.cs",
               "RelativeToolTip": "MainWindow.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD8AAAAvAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-29T16:37:57.958Z",
               "EditorCaption": ""

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Sobikmbilig=",
+  "dgSpecHash": "wfQEtOjGo64=",
   "success": true,
-  "projectFilePath": "C:\\vpet\\Deskpet\\Deskpet\\Deskpet.csproj",
+  "projectFilePath": "C:\\Users\\RRRRL\\OneDrive\\文件\\GitHub\\vpet\\Deskpet\\Deskpet\\Deskpet.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\RRRRL\\.nuget\\packages\\bouncycastle.cryptography\\2.5.1\\bouncycastle.cryptography.2.5.1.nupkg.sha512",
     "C:\\Users\\RRRRL\\.nuget\\packages\\google.protobuf\\3.30.0\\google.protobuf.3.30.0.nupkg.sha512",
