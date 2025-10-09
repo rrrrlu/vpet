@@ -1,0 +1,34 @@
+﻿<Window x:Class="Deskpet.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="DeskPet" Height="400" Width="400"
+        WindowStyle="None"
+        AllowsTransparency="True"
+        Background="Transparent"
+        Topmost="True"
+        Loaded="Window_Loaded">
+
+    <!-- 放置圖片 -->
+    <Canvas>
+        <Image x:Name="PetImage"
+       Source="/Images/pet.PNG"
+       Width="150"
+       Canvas.Left="50" Canvas.Top="50"
+       MouseLeftButtonDown="PetImage_MouseLeftButtonDown"/>
+
+        <Button x:Name="FeedButton" 
+                Content="餵食" 
+                Width="80" 
+                Height="30"
+                Canvas.Top="200" 
+                Canvas.Left="85"
+                Click="FeedButton_Click" />
+
+        <TextBlock x:Name="StatusText"
+           Canvas.Top="274"
+           Canvas.Left="69"
+           FontSize="14"
+           Foreground="Black"
+           Text="點擊寵物餵食" />
+    </Canvas>
+</Window>
