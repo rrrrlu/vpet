@@ -1659,11 +1659,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\RRRRL\\OneDrive\\文件\\GitHub\\vpet\\Deskpet\\Deskpet\\Deskpet.csproj",
+      "projectUniqueName": "D:\\GitHub\\vpet\\Deskpet\\Deskpet\\Deskpet.csproj",
       "projectName": "Deskpet",
-      "projectPath": "C:\\Users\\RRRRL\\OneDrive\\文件\\GitHub\\vpet\\Deskpet\\Deskpet\\Deskpet.csproj",
+      "projectPath": "D:\\GitHub\\vpet\\Deskpet\\Deskpet\\Deskpet.csproj",
       "packagesPath": "C:\\Users\\RRRRL\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\RRRRL\\OneDrive\\文件\\GitHub\\vpet\\Deskpet\\Deskpet\\obj\\",
+      "outputPath": "D:\\GitHub\\vpet\\Deskpet\\Deskpet\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
