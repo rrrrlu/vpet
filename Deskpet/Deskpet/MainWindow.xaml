@@ -6,29 +6,14 @@
         AllowsTransparency="True"
         Background="Transparent"
         Topmost="True"
-        Loaded="Window_Loaded">
-
-    <!-- 放置圖片 -->
+        Loaded="Window_Loaded"
+        MouseLeftButtonDown="Window_MouseLeftButtonDown">
     <Canvas>
         <Image x:Name="PetImage"
-       Source="/Images/pet.PNG"
-       Width="150"
-       Canvas.Left="50" Canvas.Top="50"
-       MouseLeftButtonDown="PetImage_MouseLeftButtonDown"/>
-
-        <Button x:Name="FeedButton" 
-                Content="餵食" 
-                Width="80" 
-                Height="30"
-                Canvas.Top="200" 
-                Canvas.Left="85"
-                Click="FeedButton_Click" />
-
-        <TextBlock x:Name="StatusText"
-           Canvas.Top="274"
-           Canvas.Left="69"
-           FontSize="14"
-           Foreground="Black"
-           Text="點擊寵物餵食" />
+               Source="/Images/pet.PNG"
+               Width="150"
+               Canvas.Left="50" Canvas.Top="50"
+               MouseRightButtonUp="PetImage_MouseRightButtonUp"/>
+        
     </Canvas>
 </Window>

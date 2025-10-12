@@ -5,5 +5,8 @@
     <Compile Update="todolist.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="DashboardWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
 </Project>

@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\RRRRL\OneDrive\文件\GitHub\vpet\Deskpet\Deskpet\obj\Debug\net8.0-windows\
+D:\GitHub\vpet\Deskpet\Deskpet\obj\Debug\net8.0-windows\
 Deskpet
 none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP;WINDOWS;WINDOWS7_0;NET5_0_OR_GREATER;NET6_0_OR_GREATER;NET7_0_OR_GREATER;NET8_0_OR_GREATER;NETCOREAPP3_0_OR_GREATER;NETCOREAPP3_1_OR_GREATER;WINDOWS7_0_OR_GREATER
-C:\Users\RRRRL\OneDrive\文件\GitHub\vpet\Deskpet\Deskpet\App.xaml
-21609231027
+D:\GitHub\vpet\Deskpet\Deskpet\App.xaml
+4-915878644
 
-11-263885546
+131252371575
 2071022968159
-MainWindow.xaml;todolist.xaml;
+DashboardWindow.xaml;MainWindow.xaml;todolist.xaml;ToolbarWindow.xaml;
 
 False
 

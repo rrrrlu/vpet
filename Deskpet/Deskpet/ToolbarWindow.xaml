@@ -1,0 +1,39 @@
+﻿<Window x:Class="Deskpet.ToolbarWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        
+        WindowStyle="None" 
+        AllowsTransparency="True" 
+        Background="Transparent"
+        
+        SizeToContent="Height" Width="350"            ResizeMode="NoResize" 
+        Topmost="True" 
+        ShowInTaskbar="False"
+        Deactivated="Window_Deactivated">
+
+    <Border Background="#AA000000" CornerRadius="10" 
+            BorderBrush="#888" BorderThickness="1" Padding="5">
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+            </Grid.RowDefinitions>
+
+            <StackPanel Grid.Row="0" Orientation="Horizontal" HorizontalAlignment="Center">
+                <Button Content="餵食" Width="Auto" MinWidth="45" Margin="5" Click="FeedButton_Click"/>
+                <Button Content="待辦" Width="Auto" MinWidth="45" Margin="5" Click="Button_TodoList_Click"/>
+                <Button Content="提醒" Width="Auto" MinWidth="45" Margin="5" Click="Button_Reminder_Click"/>
+                <Button Content="關閉" Width="Auto" MinWidth="45" Margin="5" Click="Button_Exit_Click"/>
+            </StackPanel>
+
+            <Border x:Name="ModuleContainerBorder" 
+                    Grid.Row="1" 
+                    Margin="0,10,0,0" 
+                    BorderBrush="#555" 
+                    BorderThickness="0,1,0,0"
+                    Visibility="Collapsed">
+                <ContentControl x:Name="ModulePresenter" Margin="5"/>
+            </Border>
+        </Grid>
+    </Border>
+</Window>
