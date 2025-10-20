@@ -8,6 +8,10 @@ namespace Deskpet
         private PetStatus _currentPetStatus;
         private DatabaseService _dbService;
 
+        // 儲存已經建立過的模組實體
+        private TodoListView? _todoListView;
+        private ReminderView? _reminderView;
+
         public ToolbarWindow(PetStatus status, DatabaseService dbService)
         {
             InitializeComponent();
@@ -15,32 +19,34 @@ namespace Deskpet
             _dbService = dbService;
         }
 
-        // ====== 模組載入的核心邏輯 ======
         private void LoadModule(string moduleName)
         {
-            // 如果點擊的是同一個已開啟的模組按鈕，則清空並收起
-            if (ModulePresenter.Content?.GetType().Name == moduleName + "View")
+            object? moduleToShow = null;
+
+            switch (moduleName)
+            {
+                case "TodoList":
+                    if (_todoListView == null) { _todoListView = new TodoListView(); }
+                    moduleToShow = _todoListView;
+                    break;
+                case "Reminder":
+                    if (_reminderView == null) { _reminderView = new ReminderView(); }
+                    moduleToShow = _reminderView;
+                    break;
+                case "Settings":
+                    MessageBox.Show("設定模組尚未整合！");
+                    break;
+            }
+
+            if (ModulePresenter.Content == moduleToShow)
             {
                 ModulePresenter.Content = null;
             }
-            else // 否則，載入對應的模組
+            else
             {
-                switch (moduleName)
-                {
-                    case "TodoList":
-                        ModulePresenter.Content = new TodoListView();
-                        break;
-                    case "Reminder":
-                        // ModulePresenter.Content = new ReminderView(); 
-                        MessageBox.Show("提醒功能模組尚未整合！");
-                        break;
-                    case "Settings":
-                        MessageBox.Show("設定模組尚未整合！");
-                        break;
-                }
+                ModulePresenter.Content = moduleToShow;
             }
 
-            // 根據舞台上是否有內容，決定是否顯示下方的區塊
             if (ModulePresenter.Content != null)
             {
                 ModuleContainerBorder.Visibility = Visibility.Visible;
@@ -70,7 +76,10 @@ namespace Deskpet
             if (_currentPetStatus != null)
             {
                 _currentPetStatus.Hunger += 10;
-                if (_currentPetStatus.Hunger > 100) _currentPetStatus.Hunger = 100;
+                if (_currentPetStatus.Hunger > 100)
+                {
+                    _currentPetStatus.Hunger = 100;
+                }
                 _dbService.SavePetStatus(_currentPetStatus);
                 MessageBox.Show($"你餵了寵物！\n目前飽食度: {_currentPetStatus.Hunger}");
             }
@@ -80,15 +89,17 @@ namespace Deskpet
         {
             LoadModule("TodoList");
         }
+
         private void Button_Reminder_Click(object sender, RoutedEventArgs e)
         {
             LoadModule("Reminder");
-
         }
+
         private void Button_Settings_Click(object sender, RoutedEventArgs e)
         {
             LoadModule("Settings");
         }
+
         private void Button_Exit_Click(object sender, RoutedEventArgs e)
         {
             Application.Current.Shutdown();

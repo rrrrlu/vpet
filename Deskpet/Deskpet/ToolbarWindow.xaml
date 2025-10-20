@@ -24,6 +24,8 @@
                 <Button Content="待辦" Width="Auto" MinWidth="45" Margin="5" Click="Button_TodoList_Click"/>
                 <Button Content="提醒" Width="Auto" MinWidth="45" Margin="5" Click="Button_Reminder_Click"/>
                 <Button Content="關閉" Width="Auto" MinWidth="45" Margin="5" Click="Button_Exit_Click"/>
+                <Button Content="設定" Width="Auto" MinWidth="45" Margin="5" Click="Button_Settings_Click"/>
+                
             </StackPanel>
 
             <Border x:Name="ModuleContainerBorder" 
