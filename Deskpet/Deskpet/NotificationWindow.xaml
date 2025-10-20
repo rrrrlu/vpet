@@ -1,0 +1,17 @@
+﻿<Window x:Class="Deskpet.NotificationWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="NotificationWindow" Height="100" Width="300"
+        WindowStyle="None" AllowsTransparency="True" Background="Transparent"
+        Topmost="True" ShowInTaskbar="False"
+        WindowStartupLocation="CenterScreen">
+    <Border Background="#DD000000" CornerRadius="10">
+        <TextBlock x:Name="MessageText" 
+                   Text="提醒內容"
+                   Foreground="White"
+                   FontSize="18"
+                   FontWeight="Bold"
+                   HorizontalAlignment="Center"
+                   VerticalAlignment="Center"/>
+    </Border>
+</Window>
